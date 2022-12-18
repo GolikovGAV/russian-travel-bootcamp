@@ -9,7 +9,7 @@
 @import url(./blocks/lead/__container/lead__container.css);
 @import url(./blocks/places/__container/places__container.css);
 @import url(./blocks/photo-grid/__container/photo-grid__container.css);
-@import url(./blocks/text/_bold/text_bold.css);
+@import url(./blocks/intro/__list/_bold/intro__list_bold.css);
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/lang-links/lang-links.css);
 @import url(./blocks/lang-link/lang-link.css);
