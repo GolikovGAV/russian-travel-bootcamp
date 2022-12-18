@@ -1,25 +1,25 @@
-.cover__container {
+.cover-container {
   width: calc(100% - 48px * 2);
   margin: 92px auto;
   min-width: 1184px;
-  background-image: url(../../../images/cover-trains.jpg);
+  background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
 }
 @media screen and (max-width: 1279px) {
-  .cover__container {
+  .cover-container {
     width: 100%;
     min-width: 1024px;
   }
 }
 @media screen and (max-width: 1023px) {
-  .cover__container {
+  .cover-container {
     margin: 90px auto 88px;
     width: 100%;
     min-width: 768px;
   }
 }
 @media screen and (max-width: 767px) {
-  .cover__container {
+  .cover-container {
     margin: 66px auto 60px;
     width: 100%;
     min-width: 320px;

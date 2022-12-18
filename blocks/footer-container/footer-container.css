@@ -1,21 +1,21 @@
-.footer__container {
+.footer-container {
   width: calc(100% - 48px * 2);
   min-width: 1184px;
   margin: 0 auto 24px;
 }
 @media screen and (max-width: 1279px) {
-  .footer__container {
+  .footer-container {
     min-width: 928px;
   }
 }
 @media screen and (max-width: 1023px) {
-  .footer__container {
+  .footer-container {
     min-width: 720px;
     width: calc(100% - 24px * 2);
   }
 }
 @media screen and (max-width: 767px) {
-  .footer__container {
+  .footer-container {
     min-width: 186px;
     width: calc(100% - 24px * 2);
   }
