@@ -28,7 +28,7 @@
     min-width: 320px;
     grid-template-columns: 1fr;
     row-gap: 32px;
-    margin-bottom: 50px;
+    margin-bottom: 18px;
     grid-template-areas:
       "title"
       "website"

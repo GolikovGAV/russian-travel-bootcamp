@@ -1,7 +1,30 @@
 .header {
+  max-width: calc(100% - 48px * 2);
+  margin: 28px auto 56px;
   background-color: #2a2c2f;
   display: flex;
-  margin: 0 auto;
   justify-content: space-between;
   height: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .header {
+    max-width: calc(100% - 48px * 2);
+    margin: 28px auto 48px;
+    min-width: 928px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .header {
+    max-width: calc(100% - 24px * 2);
+    min-width: 720px;
+    margin: 28px auto 48px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+    max-width: calc(100% - 16px * 2);
+    min-width: 288px;
+    margin: 16px auto 48px;
+  }
 }

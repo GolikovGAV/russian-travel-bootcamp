@@ -1,7 +1,10 @@
 .blackout {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(42, 44, 47, 0.3);
   transition: background-color 0.5s linear;
-  background-color: rgba(42, 44, 47, 0.2);
 }
 .blackout:hover {
-  background-color: rgba(42, 44, 47, 0.7);
+  background-color: rgba(42, 44, 47, 0.8);
 }
